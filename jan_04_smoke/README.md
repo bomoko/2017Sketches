@@ -6,4 +6,4 @@ This is a _real_ (fun) hack though, that I found [here](http://www.blog.jonnycor
 
 Alas, no fancy physics here, more like slight of hand. In the (near?) future I'll look at some more involved particle system effects though.
 
-![screenshot]: (https://raw.githubusercontent.com/bomoko/2017Sketches/master/jan_04_smoke/screenshot.png) 
+![Screenshot](screenshot.png) 
