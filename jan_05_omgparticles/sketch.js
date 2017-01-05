@@ -3,7 +3,6 @@ var colorGens = { r: new colorGenerator(1), g: new colorGenerator(2), b: new col
 
 function setup() {
   createCanvas(800, 800);
-  background(0);  
 }
 
 function draw() {
@@ -41,7 +40,7 @@ function colorGenerator(difference) {
 function mouseMoved() {
   if(mouseX > 0 &&
     mouseX < width &&
-    mouseY > 0&&
+    mouseY > 0 &&
     mouseY < height) {
       particleArray.push(new particle(mouseX, mouseY,
       colorGens.r.nextVal(), colorGens.g.nextVal(), colorGens.b.nextVal()));
@@ -50,17 +49,17 @@ function mouseMoved() {
 
 
 function particle(x, y, r, g, b) {
-  var r = 0;
+  var radius = 0;
   var amIAlive = true;
   
   this.draw = function() {
     if(amIAlive) {
     noFill();
     strokeWeight(2);
-    stroke(r, g, b, 255 - r);
-    ellipse(x, y, r);
-    r += 2;
-    if(r >= 255) {
+    stroke(r, g, b, 255 - radius);
+    ellipse(x, y, radius);
+    radius += 2;
+    if(radius >= 255) {
         amIAlive = false;
       }
     }
