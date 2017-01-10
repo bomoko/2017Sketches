@@ -1,6 +1,6 @@
 function CA(x, y, state) {
     if (!(this instanceof CA)) {
-        return new CA(x, y);
+        return new CA(x, y, state);
     }
     this.X = x;
     this.Y = y;
