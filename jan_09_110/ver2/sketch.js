@@ -1,7 +1,7 @@
 var SCREEN_WIDTH = 800;
 var SCREEN_HEIGHT = 600;
-var CA_WIDTH = 2;
-var CA_HEIGHT = 2;
+var CA_WIDTH = 5;
+var CA_HEIGHT = 5;
 var GRID_WIDTH = SCREEN_WIDTH / CA_WIDTH;
 var GRID_HEIGHT = SCREEN_HEIGHT / CA_HEIGHT;
 
@@ -37,7 +37,7 @@ function draw() {
  
  //let's shift everything down one ...
     for(var y = GRID_HEIGHT - 1; y > 0; y--) {
-         caArray[y] = caArray[y - 1].splice(0);
+         caArray[y] = caArray[y - 1];
     }
  
     caArray[0] = new Array(GRID_WIDTH);
