@@ -80,7 +80,6 @@ function CCell(x, y, initialColor) {
                                 grid[left][y].getColor() + grid[right][y].getColor() +
                                 grid[left][bottom].getColor() + grid[x][bottom].getColor() + grid[right][bottom].getColor()) / 8;
                                 
-        // console.log(x + ": " + y + " -> " + cellColorAverage);
         nextColor = round(cellColorAverage);
         if(cellColorAverage >= 255) {
             nextColor = 0;
@@ -96,7 +95,6 @@ function CCell(x, y, initialColor) {
             }
             nextColor = newColor;
         }
-        
         return that;
     }
 }
