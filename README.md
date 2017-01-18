@@ -6,5 +6,4 @@ First, I've been messing around with Processing and p5.js, and a program is ofte
 
 Second, and related to the first, is that this is really just a public collection of the little code doodles I do at night, after my kid is sleeping, while my wife and I are sitting watching television. My only criteria here is that I get something on the screen, not writing bullet proof (or even pretty) code.
 
-
-I'm hoping to check _something_ in every day for 2017.
+I've realized I might not be able to keep up checking something new in _every day_, simply because some of the things I want to work on are going to be multi-day or multi-week projects. Still, I'll do what I can!
