@@ -119,7 +119,6 @@ function Ball(startX, startY) {
 function Paddle(startX, startY, paddleWidth, paddleHeight, paddleFill) {
     var pos = createVector(startX, startY);
     
-    
     this.moveUp = function() {
         if(pos.y > paddleHeight / 2) {
             pos.y = pos.y - 5;
