@@ -38,7 +38,7 @@ function drawMandelbrot(zoomX1, zoomY1, zoomX2, zoomY2) {
       var y = 0.0;
 
       var iteration = 0;
-      var maxIteration = 60;
+      var maxIteration = 600;
 
       while( x*x + y*y < 2*2 && iteration < maxIteration) {
         var xTemp = x*x - y*y + scaledX;
